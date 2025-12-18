@@ -6,8 +6,8 @@ import time
 
 
 # CONFIGURACIÓN
-API_KEY = "AIzaSyC_XnAhIySqjsA8CZVaUkjr9drecE0iPjU"
-VIDEO_ID = "9flte56erE8"
+API_KEY = "API_YOUTUBE"
+VIDEO_ID = "ID_VIDEO"
 
 youtube = build(
     serviceName="youtube",

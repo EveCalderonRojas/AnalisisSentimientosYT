@@ -2,8 +2,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 import urllib
 
-server = "localhost\\SQLEXPRESS01"   # Servidor base en DQL Server
-database = "AnalisisSentimientosYT"  # Nombre de la base de datos
+server = "SERVER_NAME"   # Servidor base en DQL Server
+database = "DATABASE_NAME"  # Nombre de la base de datos
 
 # String para la conexión con el servidor
 connection_string = (
